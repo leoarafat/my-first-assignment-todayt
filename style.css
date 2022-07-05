@@ -1,0 +1,180 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header section start here */
+header{
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 80vh;
+   text-align: center;
+   color: white;
+position: relative;
+ margin-bottom: 50px; 
+}
+.banner-section{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.btn{
+    text-decoration: none;
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+}
+/* header section ends here */
+
+/* donate section start here */
+.donate-section{
+    text-align: center;
+    
+}
+.donated{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cng-color{
+    color: gray;
+}
+.tk-style{
+   border: 1px solid red;
+   background-color: hsl(0, 100%, 100%);
+    padding: 10px;
+    color: palevioletred;
+    border-radius: 5px;
+}
+.an{
+    border: none;
+}
+/* donate section start here */
+
+/* another donate section start */
+.donate-section{
+    margin-top: 100px;
+}
+.donate-plan-sec{
+    text-align: center;
+    margin-top: 100px;
+  
+}
+.donate-card{
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.card1{
+    width: 100%;
+    margin-left: 20px;
+    box-shadow: 10px 10px 30px gray;
+    padding: 40px 5px;
+    background-color: #ff0000;
+    border-radius: 5px;
+}
+.card2{
+    width: 100%;
+    margin-left: 20px;
+    box-shadow: 10px 10px 30px gray;
+    padding: 40px 5px;
+    background-color: #3cb371;
+    border-radius: 5px;
+}
+    
+.card3{
+     width: 100%;
+     margin-left: 20px;
+     box-shadow: 10px 10px 30px gray;
+     background-color: #6a5acd;
+     border-radius: 5px;
+     padding: 40px 5px;}
+
+/* another donate section endes */
+
+/* about us section start here */
+.about-us{
+text-align: center;
+background-color: #ffa500;
+padding: 10px 0px;
+
+}
+.about-div{
+    display: flex;
+}
+.about-img{
+   width: 80%; 
+   border-radius: 10px;
+
+}
+.dotted{
+    border: dotted;
+    border-bottom: none;
+    width: 60px;
+    
+}
+.sec1{
+    width: 50%;
+}
+.sec2{
+    width: 50%;
+}
+
+/* about us section ends here */
+
+
+/* update section start */
+
+.update-sec{
+    display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   margin-bottom: 50px;
+}
+.update-description{
+    width: 50%;
+}
+.update-sending{
+    width: 50%;
+}
+
+.input-div{
+    background-color: hsl(0, 0%, 30%);
+    width: 100%;
+   padding: 80px 0px;
+   
+}
+.email-style{
+border: none;
+padding: 10px;
+background-color: rgb(240, 240, 240);
+border-radius: 5px;
+}
+.button{
+border: none;
+padding: 10px;
+background-color: red;
+border-radius: 5px;
+}
+/* update section end */
+
+/* footer start */
+footer{
+    font-family: 'Source Code Pro', monospace;
+    background-color: hsl(0, 100%, 0%);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+  
+}
+.footer-style{
+    color: orangered;
+    font-family: 'Source Code Pro', monospace;
+}
+/* footer end */
